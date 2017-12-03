@@ -17,7 +17,7 @@ public class OrderProcessing {
     public static void main(String[] args) {
         OrderProcessor order = new OrderProcessor("Orders.txt", "OrdersProcessed.txt");
         
-        
+        order.skip();
     }
     
 }
