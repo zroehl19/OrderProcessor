@@ -88,7 +88,7 @@ public class OrderProcessor {
     
     public void process()
     {
-        orders = line.split("|");
+        orders = line.split("\\|");
         
         try{
             price = Double.parseDouble(orders[2]);
